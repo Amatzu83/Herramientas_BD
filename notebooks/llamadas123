@@ -1,0 +1,8 @@
+import numpy as np
+import pandas as pnd
+import os
+from pathlib import Path
+root_dir='C:\Users\ferne\BIGDATA_2022B\data\raw'
+filename="llamadas123_julio_2022.csv"
+file_path=os.path.join(root_dir,"data",data_dir,filename)
+data=pnd.read_csv(file_path,encoding='latin',sep=":")
